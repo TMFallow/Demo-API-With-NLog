@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Services\\Student_Services.csproj": {}
+    "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Services\\Student_Services.csproj": {}
   },
   "projects": {
-    "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\Student_Data.csproj": {
+    "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\Student_Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\Student_Data.csproj",
+        "projectUniqueName": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\Student_Data.csproj",
         "projectName": "Student_Data",
-        "projectPath": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\Student_Data.csproj",
+        "projectPath": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\Student_Data.csproj",
         "packagesPath": "C:\\Users\\binh.phant\\.nuget\\packages\\",
-        "outputPath": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\obj\\",
+        "outputPath": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\binh.phant\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Repo\\Student_Repo.csproj": {
+    "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Repo\\Student_Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Repo\\Student_Repo.csproj",
+        "projectUniqueName": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Repo\\Student_Repo.csproj",
         "projectName": "Student_Repo",
-        "projectPath": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Repo\\Student_Repo.csproj",
+        "projectPath": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Repo\\Student_Repo.csproj",
         "packagesPath": "C:\\Users\\binh.phant\\.nuget\\packages\\",
-        "outputPath": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Repo\\obj\\",
+        "outputPath": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Repo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\binh.phant\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\Student_Data.csproj": {
-                "projectPath": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\Student_Data.csproj"
+              "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\Student_Data.csproj": {
+                "projectPath": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\Student_Data.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Services\\Student_Services.csproj": {
+    "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Services\\Student_Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Services\\Student_Services.csproj",
+        "projectUniqueName": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Services\\Student_Services.csproj",
         "projectName": "Student_Services",
-        "projectPath": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Services\\Student_Services.csproj",
+        "projectPath": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Services\\Student_Services.csproj",
         "packagesPath": "C:\\Users\\binh.phant\\.nuget\\packages\\",
-        "outputPath": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Services\\obj\\",
+        "outputPath": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\binh.phant\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,8 +162,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Repo\\Student_Repo.csproj": {
-                "projectPath": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Repo\\Student_Repo.csproj"
+              "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Repo\\Student_Repo.csproj": {
+                "projectPath": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Repo\\Student_Repo.csproj"
               }
             }
           }

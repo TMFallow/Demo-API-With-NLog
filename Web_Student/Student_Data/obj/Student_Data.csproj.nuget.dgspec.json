@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\Student_Data.csproj": {}
+    "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\Student_Data.csproj": {}
   },
   "projects": {
-    "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\Student_Data.csproj": {
+    "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\Student_Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\Student_Data.csproj",
+        "projectUniqueName": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\Student_Data.csproj",
         "projectName": "Student_Data",
-        "projectPath": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\Student_Data.csproj",
+        "projectPath": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\Student_Data.csproj",
         "packagesPath": "C:\\Users\\binh.phant\\.nuget\\packages\\",
-        "outputPath": "D:\\SourceTree\\Demo_Restful_API\\Web_Student\\Student_Data\\obj\\",
+        "outputPath": "D:\\SourceTree\\Demo_API_Gateway\\Web_Student\\Student_Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\binh.phant\\AppData\\Roaming\\NuGet\\NuGet.Config",
