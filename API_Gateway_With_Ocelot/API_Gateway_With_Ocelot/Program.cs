@@ -20,7 +20,6 @@ namespace API_Gateway_With_Ocelot
             var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
             try
             {
-                logger.Debug("First Main Function");
                 CreateHostBuilder(args).Build().Run();
             }
             catch(Exception ex)
@@ -40,7 +39,12 @@ namespace API_Gateway_With_Ocelot
                     webBuilder.UseStartup<Startup>();
                     webBuilder.ConfigureAppConfiguration(s => s.AddJsonFile("configuration.json"));
                 })
-            .ConfigureLogging(logging => logging.AddConsole())
+            .ConfigureLogging(logging =>
+            {
+                logging.ClearProviders();
+                logging.SetMinimumLevel(LogLevel.Trace);
+                logging.AddConsole();
+            })
             .UseNLog();
                 
     }
