@@ -14,9 +14,15 @@ namespace Teacher_Repo
 
         void Insert(T entity);
 
+        T InsertWithReturn(T entity);
+
         void Update(T entity);
 
+        string UpdateDetailTeacher(T entity);
+
         void Delete(T entity);
+
+        string DeleteWithReturn(T entity);
 
         void Remove(T entity);
 

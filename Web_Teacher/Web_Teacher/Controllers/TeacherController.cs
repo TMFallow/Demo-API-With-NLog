@@ -114,5 +114,25 @@ namespace Web_Teacher.Controllers
             }
             
         }
+
+        public IActionResult GetTeacherForTesting(int? Id)
+        {
+            var teacher = teacher_Service.GetTeacher(Id);
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            return Ok(teacher);
+        }
+
+        public IActionResult DeleteTeacherWithAReturn(Teacher teacher)
+        {
+            teacher_Service.Delete(teacher);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            return Ok("Delete successfully");
+        }
     }
 }

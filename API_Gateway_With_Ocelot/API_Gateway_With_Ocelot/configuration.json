@@ -23,6 +23,18 @@
       ],
       "UpstreamPathTemplate": "/Teacher/StudentList",
       "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/Teacher/AddTeacher",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7292
+        }
+      ],
+      "UpstreamPathTemplate": "/Teacher/AddTeacher",
+      "UpstreamHttpMethod": [ "GET" ]
     }
   ],
   "GlobalConfiguration": {

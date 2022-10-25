@@ -83,5 +83,46 @@ namespace Teacher_Repo
         {
             context.SaveChanges();
         }
+
+        public T InsertWithReturn(T entity)
+        {
+            if (entity == null)
+            {
+                throw new ArgumentNullException("Entity");
+            }
+            else
+            {
+                teachers.Add(entity);
+                context.SaveChanges();
+                return entity;
+            }
+        }
+
+        public string DeleteWithReturn(T entity)
+        {
+            if (entity == null)
+            {
+                throw new ArgumentNullException("Entity");
+            }
+            else
+            {
+                teachers.Remove(entity);
+                context.SaveChanges();
+                return "Delete Successfully";
+            }
+        }
+
+        public string UpdateDetailTeacher(T entity)
+        {
+            if (entity == null)
+            {
+                throw new ArgumentNullException("Entity");
+            }
+            else
+            {
+                context.SaveChanges();
+                return "Update Successfully";
+            }
+        }
     }
 }
